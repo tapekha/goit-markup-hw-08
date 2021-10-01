@@ -1,0 +1,56 @@
+.company-members {
+  background-color: #f5f4fa;
+}
+
+.members {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+.members__item {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 15px;
+    flex-basis: calc((100% - 60px) / 2);
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 120px) / 4);
+  }
+}
+
+.members__box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.member__title {
+  margin-bottom: 10px;
+
+  @include font(16px, 1.19, 500, 0.03em);
+
+  text-align: center;
+
+  color: var(--second-text-color);
+}
+
+.member__text {
+  @include font(16px, 1.19, 0.03em);
+
+  text-align: center;
+
+  color: var(--first-text-color);
+}

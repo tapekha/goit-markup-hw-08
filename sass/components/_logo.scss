@@ -1,0 +1,36 @@
+.header-logo {
+  display: block;
+
+  font-family: 'Raleway', sans-serif;
+  @include font(24px, 1.17, 700, 0.03em);
+
+  color: var(--second-text-color);
+
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include font(26px, 1.2, 700, 0.03em);
+    margin-right: 93px;
+    padding-top: 25px;
+    padding-bottom: 24px;
+  }
+}
+
+.header-logo-web {
+  color: var(--accent-text-color);
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+
+  font-family: 'Raleway', sans-serif;
+  @include font(24px, 1.17, 700, 0.03em);
+
+  color: var(--white-text-color);
+}
+
+.footer-logo-web {
+  color: var(--accent-text-color);
+}
