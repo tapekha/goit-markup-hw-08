@@ -1,9 +1,10 @@
 .hero__button {
   display: inline-block;
+  margin-top: 30px;
   padding: 10px 32px;
   min-width: 200px;
 
-  @include font(16px, 1.87, 0.06em);
+  @include font(16px, 1.87, 700, 0.06em);
 
   cursor: pointer;
   align-items: center;

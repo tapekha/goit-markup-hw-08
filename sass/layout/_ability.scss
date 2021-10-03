@@ -28,14 +28,18 @@
   padding-top: 25px;
   padding-bottom: 25px;
 
-  margin-bottom: 30px;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
 
   background: #f5f4fa;
   border-radius: 4px;
 }
 
 .ability__title {
-  margin-bottom: 10px;
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 
   @include font(14px, 1.14, 0.03em);
   text-transform: uppercase;

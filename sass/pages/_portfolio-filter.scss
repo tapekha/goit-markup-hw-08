@@ -1,28 +1,32 @@
-.filter {
-  display: flex;
-}
-
 .filter-list {
-  margin-bottom: 50px;
-  justify-content: center;
-
+  margin-bottom: 40px;
   display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 50px;
+    justify-content: center;
+  }
 }
 
 .filter-item {
   &:not(:last-child) {
     margin-right: 8px;
   }
+
+  @media screen and (max-width: 767px) {
+    &:nth-child(-n + 3) {
+      margin-bottom: 15px;
+    }
+  }
 }
 
 .filter-button {
-  padding: 6px 32px;
+  padding: 6px 22px;
   border: 0;
 
   @include font(16px, 1.62, 500, 0.03em);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
 
   text-align: center;
 
