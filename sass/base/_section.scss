@@ -8,9 +8,12 @@
   }
 }
 .section__title {
-  margin-bottom: 50px;
-
-  @include font(36px, 1.17, 0.03em);
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.178;
+  text-align: center;
+  letter-spacing: 0.03em;
 
   text-align: center;
 

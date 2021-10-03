@@ -77,11 +77,12 @@ img {
 }
 
 .section__title {
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.17;
-  font-weight: 0.03em;
-  letter-spacing: 0.02em;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.178;
+  text-align: center;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--second-text-color);
 }
@@ -446,7 +447,7 @@ img {
 }
 
 .hero {
-  padding: 200px 0px;
+  padding: 118px 0px;
   text-align: center;
   background-color: #2f303a;
   background-repeat: no-repeat;
