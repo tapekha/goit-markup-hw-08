@@ -103,7 +103,7 @@ img {
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__container {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -111,7 +111,7 @@ img {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-menu {
     width: 100%;
     justify-content: space-between;
@@ -208,7 +208,7 @@ img {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 98vh;
+  height: 100vh;
   padding: 10px 15px 48px 40px;
   background-color: var(--white-text-color);
   transform: translateX(-100%);
