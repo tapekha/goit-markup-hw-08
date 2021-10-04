@@ -63,67 +63,6 @@
                 <h1 class="hero__title">Эффективные решения <br/> для вашего бизнеса</h1>
                 <button class="hero__button" type="button" data-modal-open>Заказать услугу</button>
             </div>
-            <!-- Modal Window -->
-            <div class="backdrop is-hidden" data-modal>
-                <div class="modal">
-                    <button type="button" class="modal-button" data-modal-close>
-                        <svg class="close-button-icon" width="11" height="11">
-                            <use href="./images/sprite.svg#icon-close-black"></use>
-                        </svg>
-                    </button>
-                    <form class="modal-form" action="#">
-                        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-                        <div class="modal-form-field">
-                            <label for="imput-name" class="modal-form-label">Имя</label>
-                            <span class="input-wrap">
-                                <input type="text" id="imput-name" class="modal-form-imput" name="modal-name" required>
-                                <svg class="modal-form-icon" width="12" height="12">
-                                    <use href="./images/sprite.svg#icon-person"></use>
-                                </svg>
-                            </span>
-                        </div>
-                        <div class="modal-form-field">
-                            <label for="imput-tel" class="modal-form-label">Телефон</label>
-                            <span class="input-wrap">
-                                <input type="tel" id="imput-tel" class="modal-form-imput" name="modal-name" required
-                                    pattern="">
-                                <svg class="modal-form-icon" width="13" height="13">
-                                    <use href="./images/sprite.svg#icon-phone"></use>
-                                </svg>
-                            </span>
-                        </div>
-                        <div class="modal-form-field">
-                            <label for="imput-email" class="modal-form-label">Почта</label>
-                            <span class="input-wrap">
-                                <input type="email" id="imput-email" class="modal-form-imput" name="modal-name"
-                                    required>
-                                <svg class="modal-form-icon" width="15" height="12">
-                                    <use href="./images/sprite.svg#icon-email"></use>
-                                </svg>
-                            </span>
-                        </div>
-                        <div class="modal-form-field">
-                            <label for="modal-comment" class="modal-form-label">Комментарий</label>
-                            <textarea name="comment" id="modal-comment" placeholder="Введите текст"
-                                class="modal-comment"></textarea>
-                        </div>
-                        <div class="modal-form-field">
-                            <input type="checkbox" id="check" class="checkbox visually-hidden" name="policy">
-                            <label for="check" class="modal-check-label">
-                                <span class="icon-check">
-                                    <svg class="" width="16" height="15">
-                                        <use href="./images/sprite.svg#icon-check"></use>
-                                    </svg>
-                                </span>
-                                <span class="agreement">Соглашаюсь с рассылкой и принимаю
-                                    <a href="" class="check-text">Условия договора</a>
-                                </span>
-                            </label>
-                        </div>
-                        <button class="form-btn" type="submit">Отправить</button>
-                    </form>
-                </div>
-            </div>
         </section>
         <!--abilities of the company-->
         <section class="section">
@@ -556,6 +495,65 @@
                 href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
     </ul>
 </div>
+            <!-- Modal Window -->
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button type="button" class="modal-button" data-modal-close>
+                        <svg class="close-button-icon" width="11" height="11">
+                            <use href="./images/sprite.svg#icon-close-black"></use>
+                        </svg>
+                    </button>
+                    <form class="modal-form" action="#">
+                        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                        <div class="modal-form-field">
+                            <label for="imput-name" class="modal-form-label">Имя</label>
+                            <span class="input-wrap">
+                                <input type="text" id="imput-name" class="modal-form-imput" name="modal-name" required>
+                                <svg class="modal-form-icon" width="12" height="12">
+                                    <use href="./images/sprite.svg#icon-person"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="modal-form-field">
+                            <label for="imput-tel" class="modal-form-label">Телефон</label>
+                            <span class="input-wrap">
+                                <input type="tel" id="imput-tel" class="modal-form-imput" name="modal-name" required pattern="">
+                                <svg class="modal-form-icon" width="13" height="13">
+                                    <use href="./images/sprite.svg#icon-phone"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="modal-form-field">
+                            <label for="imput-email" class="modal-form-label">Почта</label>
+                            <span class="input-wrap">
+                                <input type="email" id="imput-email" class="modal-form-imput" name="modal-name" required>
+                                <svg class="modal-form-icon" width="15" height="12">
+                                    <use href="./images/sprite.svg#icon-email"></use>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="modal-form-field">
+                            <label for="modal-comment" class="modal-form-label">Комментарий</label>
+                            <textarea name="comment" id="modal-comment" placeholder="Введите текст"
+                                class="modal-comment"></textarea>
+                        </div>
+                        <div class="modal-form-field">
+                            <input type="checkbox" id="check" class="checkbox visually-hidden" name="policy">
+                            <label for="check" class="modal-check-label">
+                                <span class="icon-check">
+                                    <svg class="" width="16" height="15">
+                                        <use href="./images/sprite.svg#icon-check"></use>
+                                    </svg>
+                                </span>
+                                <span class="agreement">Соглашаюсь с рассылкой и принимаю
+                                    <a href="" class="check-text">Условия договора</a>
+                                </span>
+                            </label>
+                        </div>
+                        <button class="form-btn" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
     <script src="./js/modal.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
